@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('http://149.129.242.93/ikonhrm/symfony/web/index.php/auth/login')
 
+WebUI.click(findTestObject(null))
+
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
