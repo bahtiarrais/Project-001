@@ -19,5 +19,7 @@ WebUI.openBrowser('http://149.129.242.93/ikonhrm/symfony/web/index.php/auth/logi
 
 WebUI.click(findTestObject(null))
 
+WebUI.click(findTestObject(null))
+
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
