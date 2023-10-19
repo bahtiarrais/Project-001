@@ -21,7 +21,7 @@ WebUI.openBrowser('www.google.com')
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
